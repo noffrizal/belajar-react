@@ -15,15 +15,13 @@
 
     <script type="text/babel">
         const root = document.querySelector('#root');
+        function ngegas(text) {
+            return text.toUpperCase()
+        }
 
-        const element = (
-            <ul>
-                <li>Apple</li>
-                <li>Orange</li>
-                <li>Grape</li>
-            </ul>
-        )
+        const name = 'Zaim'
 
+        const element = <h1>Hello {ngegas(name)}</h1>
         ReactDOM.render(element, root);
     </script>
 </body>
