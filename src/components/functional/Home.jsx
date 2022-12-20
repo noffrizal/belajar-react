@@ -3,7 +3,9 @@ import Blog from './Blog'
 
 const Home = () => {
     return <div>
-            <Blog 
+            
+            {<Produk />
+            /* <Blog 
             tanggal = "11 Desember 2022"
             judul = "Teknologi DevOps"
             summary= "Ada ada aja di tahun 2022 ini , semoga kedepan leboh baik lagi"
@@ -22,7 +24,7 @@ const Home = () => {
             tanggal = "14 Desember 2022"
             judul = "Teknologi Laravel"
             summary= "Ada ada aja di tahun 2022 ini , semoga kedepan leboh baik lagi"
-            />
+            /> */}
       
     </div>
 }
